@@ -32,8 +32,8 @@
 	</ul>
 	<h3>Relations</h3>
 		<ul>
-			<li>One profile can watch many videos-(1 to n)</li>
-			<li>One profile can watch many videos-(1 to n)</li>
+			<li>One profile can view many videos-(1 to m)</li>
+			<li>Many videos can be liked by many profiles-(m to n)</li>
 		</ul>
 	<h2>Entity Relationship Diagram</h2>
 		<img src="LetoYoutubeERD.png">
