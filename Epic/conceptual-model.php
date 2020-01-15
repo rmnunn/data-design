@@ -12,9 +12,10 @@
 	<ul>
 		<li>profileId (primary key)</li>
 		<li>profileEmail</li>
-		<li>profileLikedVideos</li>
-		<li>profileViewHistory</li>
-		<li>profileChannels</li>
+		<li>profileImage</li>
+		<li>profileDescription</li>
+		<li>profileUsername</li>
+		<li>profileDateJoined</li>
 	</ul>
 	<h4>VIDEO</h4>
 	<ul>
@@ -32,11 +33,17 @@
 	</ul>
 	<h3>Relations</h3>
 		<ul>
-			<li>One profile can view many videos-(1 to m)</li>
+			<li>One profile can like many videos-(1 to m)</li>
 			<li>Many videos can be liked by many profiles-(m to n)</li>
 		</ul>
 	<h2>Entity Relationship Diagram</h2>
-		<img src="LetoYoutubeERD.png">
+		<img src="LetoYoutubeERD2.png">
 	<a href="index.php">Back To Main Page</a>
 </body>
-</html>
+
+<!--
+get rid of liked videos and view history and profile channels and more attributes for profile
+one profile can like many videos
+
+Get rid of Some attributes on ERD and add new ones
+-->
