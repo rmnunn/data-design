@@ -16,5 +16,5 @@ SELECT videoId, videoLength, videoName, videoDescription from video WHERE videoP
 SELECT video.videoId, video.videoProfileId, video.videoName, video.videoDescription, profile.profileUsername FROM video INNER JOIN profile on video.videoProfileId = profile.profileId where video.videoName = "Jared Leto - Suicide Squad (2016)"
 
 /*
-SELECT likeTweetId from `like` where likeTweetId = UNHEX("hexHere")
+SELECT likeTweetId, likeProfileId from `like` where likeTweetId = UNHEX("hexHere")
  */
