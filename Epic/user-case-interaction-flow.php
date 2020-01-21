@@ -25,3 +25,7 @@
 	<a href="index.php">Back To Main Page</a>
 </body>
 </html>
+
+<!-- drop table if exists `like`;
+drop table if exists video;
+drop table if exists profile; -->
